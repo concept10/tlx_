@@ -1,0 +1,22 @@
+# SPDX-FileCopyrightText: TRACEY LEDBETTER <tracey@outlawd.io>
+# SPDX-License-Identifier: MIT
+
+
+name: Docker Image CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Build the Docker image
+      run: docker build . --file Dockerfile --tag c5xb-rxckover-image:$(date +%s)
