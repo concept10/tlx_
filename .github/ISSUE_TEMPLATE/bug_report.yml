@@ -1,6 +1,6 @@
-name: Report a bug
-description: File a issue 
-labels: [needs-triage]
+name: bug
+description: bug report 
+labels: [needs-triage] 
 body:
 - type: textarea
   attributes:
@@ -17,17 +17,17 @@ body:
 - type: textarea
   attributes:
     label: Steps To Reproduce
-    description: Steps to reproduce the behavior.
+    description: Steps to reproduce behavior.
   validations:
     required: false
 - type: textarea
   attributes:
     label: Environment
-    description: Please tell us about your environment. 
+    description: Describe system environment. 
     value:
-        - Product:
+        - Product: tlx_ -v
         - Build:
-        - Node.js version:
+        - nodejs version:
         - npm version:
         - Platform/OS:
         - Browser:

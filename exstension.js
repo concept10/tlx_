@@ -1,3 +1,9 @@
+# SPDX-FileCopyrightText: Tracey Ledbetter <tracey@outlawd.io>
+# SPDX-License-Identifier:  MIT
+
+
+
+
 const Clutter = imports.gi.Clutter;
 const GdkPixbuf = imports.gi.GdkPixbuf;
 const Rsvg = imports.gi.Rsvg;

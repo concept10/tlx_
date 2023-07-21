@@ -3,9 +3,7 @@ FROM node:16-alpine3.14 as build
 // Ensure ENV ARG 
 ARG tlx_=latest
 
-
-
-RUN apk add --no-cache python3 make g++ libusb-dev eudev-dev avahi-dev cairo-dev jpeg-dev pango-dev giflib-dev
+RUN apk add --no-cache python3 make g++ libusb-dev eudev-dev avahi-dev cairo-dev jpeg-dev pango-dev giflib-dev 
 
 RUN npm install -g --unsafe-perm tlx_@latest
 

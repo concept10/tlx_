@@ -24,6 +24,7 @@ fi;
 if [[ $(uname -s) == 'Linux' ]]; then
     sudo apt update
     sudo apt install --fix-missing \
+    libgtk-4-dev \
         xvfb \
         libgirepository1.0-dev \
         gobject-introspection \
