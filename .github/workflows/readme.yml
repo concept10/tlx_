@@ -10,7 +10,7 @@ on:
 
 jobs:
   update-badges:
-    name: Update Badges
+    name: README
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository

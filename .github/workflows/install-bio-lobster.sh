@@ -1,17 +1,19 @@
+# install-bio-lobster
+
 #!/bin/bash
 set -euf
 set -o pipefail
 
-# IMPORTANT:
-# If you change the dependencies, you must
-# also increase the package cache key in main.yaml
+# NOTE: Increase package cache key ehen chaging depencies (main.yml).  
 
 if [[ $(uname -s) == 'Darwin' ]]; then
     brew update
     brew install \
         gtk+3 \
+        gtk4 \
         gobject-introspection \
         glib \
+        gio \
         libsoup \
         cairo \
         gstreamer \
@@ -23,7 +25,7 @@ fi;
 
 if [[ $(uname -s) == 'Linux' ]]; then
     sudo apt update
-    sudo apt install --fix-missing \
+    sudo apt install --fix-         missing \
         xvfb \
         libgirepository1.0-dev \
         gobject-introspection \
