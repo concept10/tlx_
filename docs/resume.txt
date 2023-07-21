@@ -6,9 +6,10 @@ PROFESSIONAL WORK EXPERIENCE
 
 Automation Specialist II, Prime Controls - Lewisville, TX (7/22 - Present)
 
-Design and Engineering support for new semiconductor fab Intel Chandler, AZ Fab 52.  Provided semiconductor project design and estimation for all industrial control Systems.  Performed design review, estimation, project coordination, and programming for all Process Control Systems including procurement and design review of all PLC network infrastructure, wiring, instrumentation and control balbe sizing and selection and related support. 
+Design and Engineering support for new semiconductor fab Intel Chandler, AZ Fab 52.  Provided semiconductor project design and estimation for all industrial control Systems.  Performed design review, estimation, project coordination, and programming for all Process Control Systems including procurement and design review of all PLC network infrastructure, wiring, instrumentation and control valve selection, and related support. 
 
 Controls Engineer, TMGCore, Inc - Plano, TX (01/22 - 07/22) 
+
 Responsible for Controls Engineering and software development of CryptoCore, ComputeCore, and EdgeBox single-phase liquid immersion computing products and corresponding cloud infrastructure.   
 
 Independent Controls Systems Contractor (Private Corporation) -  Rockwall, TX	(07/20 – 01/22)
