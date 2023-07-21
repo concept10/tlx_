@@ -1,7 +1,7 @@
 # tlx_
 
 this is tlx_
-
+<p align=“center”>
 <a href=“LICENSE”><img src=“https://img.shields.io/badge/License-MIT-purple.svg?labelColor=303030” /></a>
   <a href=“scripts/cloc.sh”><img src=“https://img.shields.io/endpoint?url=https://gist.githubusercontent.com//raw/loc.json” /></a>
   <a href=“scripts/cloc.sh”><img src=“https://img.shields.io/endpoint?url=https://gist.githubusercontent.com//raw/comments.json” /></a>
