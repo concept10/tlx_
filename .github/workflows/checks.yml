@@ -107,9 +107,9 @@ jobs:
       run: |
         sudo apt update -qq
         sudo apt install gettext -qq
-    - name: Build r9xb
+    - name: Build tlx_
       run: make
-    - name: Test r9xb
+    - name: Test tlx_
       run: sudo $GITHUB_WORKSPACE/tests/run-test.sh -v ${{ matrix.version }} -s ${{ matrix.session }}
     - uses: actions/upload-artifact@v2
       if: failure()
